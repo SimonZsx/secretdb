@@ -15,10 +15,11 @@
 #ifndef SECRETDB_LIBRARY_H
 #define SECRETDB_LIBRARY_H
 
-
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <type.h>
 
 #ifdef L_ctermidNOPE
 #include <unistd.h>
@@ -27,9 +28,7 @@
 #endif
 
 
-typedef unsigned long long uint64_t;
-typedef unsigned int uint32_t;
-typedef unsigned char uint8_t;
+
 typedef struct db db;
 
 #define SIZEOF_LONG sizeof(uint64_t)
