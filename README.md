@@ -1,0 +1,1 @@
+A lightweight key value store database. To be integrated in Intel(R) SGX.
